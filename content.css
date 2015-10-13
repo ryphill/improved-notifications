@@ -1,0 +1,24 @@
+h3 a.nav-item {
+	padding: 4px 9px;
+	font-weight: bold;
+	border: 1px solid #e5e5e5;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.nav-item:nth-child(2) {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+a.nav-item:last-child {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+h3 a.nav-item.nav-selected {
+	color: #fff;
+	background-color: #4078c0;
+	border-color: #4078c0; 
+	text-decoration: none;
+}
